@@ -76,5 +76,23 @@ this will be my last project under the Alias virtual, due to the fact it has alo
     - <<$myrunning>>: Current user's running attacks
     - <<$slaves>>: Shows the slave count
 
+# Building the Source
+Well it isn't that complex, here I'll run it down within a few commands.
+
+```
+apt install git golang mariadb-server mariadb-client
+git clone https://github.com/AtlanticCNC/Atlantic
+cd Atlantic
+go build main.go
+mysql_secure_installation
+SET ROOT PASS (this isn't a command)
+mysql -pPASSWORD
+create database blissful;
+exit;
+./main
+```
+
+For Redhat's use `yum`, For Arch's use `pacman`
+
 # Credits
 Originally by FB owner of Nosviak, but maintained by Virtual.
