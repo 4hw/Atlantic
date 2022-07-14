@@ -50,7 +50,6 @@ this will be my last project under the Alias virtual, due to the fact it has alo
         - [method] [target] [time] [port]
 - Slave loading
     - Loading Mirai's to the CnC
-- Seperate slave server
 - Ported Yami's features onto the CnC
 # Markup
 - Users
@@ -93,6 +92,9 @@ exit;
 ```
 
 For Redhat's use `yum`, For Arch's use `pacman`
+
+# Licensing
+Please refer to cryptolens for golang docs to learn how to make licenses.
 
 # Credits
 Originally by FB owner of Nosviak, but maintained by Virtual.
