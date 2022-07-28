@@ -1,0 +1,43 @@
+{
+
+
+    "masters" : {
+        "masters_host" : ":9999",
+        "slave_host" : ":4335",
+        "masters_config_maxauthtries" : 3
+    },
+
+    "database" : {
+        "sql_host" : "127.0.0.1:3306",
+        "sql_username" : "root",
+        "sql_password" : "root",
+        "sql_name" : "blissful"
+    },
+
+    "app_config" : {
+        "app_name" : "Blissful",
+        "app_sig_colour" : "[38;5;204m"
+    },
+
+    "Disabled_commands" : [],
+
+
+    "Extra" : {
+        "TableType" : "lite",
+        "TitleSpinner" : true,
+        "TitleSpinnerFrames" : ["/", "\\"],
+        "DefaultColours" : "[0m"
+    },
+
+
+    "User_Defaults" : {
+        "Admin" : false, 
+        "Reseller" : false,
+        "VIP" : false, 
+        "Banned" : false, 
+        "MaxSessions" : 3, 
+        "PowerSavingExempt" : false, 
+        "BypassBlacklist" : false,
+        "DefaultDays" : 30
+    }
+}

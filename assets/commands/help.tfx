@@ -1,0 +1,23 @@
+name=help
+description=help menu
+admin=false
+reseller=false
+vip=false
+==================== COMMAND ====================
+Admin commands:[0m
+users create [plan]:[0m ADD A USER
+users [statement]:[0m UPDATE A USER'S INFO
+users delete:[0m REMOVE A USER'S ACCOUNT
+sessions kick:[0m KICK A USER'S SESSION
+motd:[0m CHANGE THE MOTD
+attacks [enable/disable]: EDIT THE ATTACK STATUS
+
+CnC commands:[0m
+key: CHANGE YOUR API KEY
+passwd:[0m CHANGE YOUR PASSWORD
+themes:[0m CHANGE YOUR THEME
+rules:[0m VIEW THE TOS
+credits:[0m VIEW THE CREDITS
+cls:[0m CLEAR THE TERMINAL
+exit:[0m EXIT THE CnC
+[0m
