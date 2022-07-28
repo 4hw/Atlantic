@@ -84,7 +84,7 @@ this will be my last project under the Alias virtual (bitches), due to the fact 
 Well it isn't that complex, here I'll run it down within a few commands.
 
 ```
-apt install git golang mariadb-server mariadb-client
+apt install git golang mariadb-server mariadb-client apache2 php
 git clone https://github.com/AtlanticCNC/Atlantic
 cd Atlantic
 go build main.go
@@ -97,6 +97,14 @@ exit;
 ```
 
 For Redhat's use `yum`, For Arch's use `pacman`
+
+# Funnel
+```
+basically, run the cnc for the first time, it should set up the MySQL database
+After you do, select your webserver of choice, I chose apache2, install php, and put the api in
+the folder (/var/www/html) start up Apache, go to the config folder edit the conn.php file
+And put in your MySQL root password and there you have it man.
+```
 
 # Licensing
 Please refer to cryptolens for golang docs to learn how to make licenses.
