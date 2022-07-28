@@ -15,7 +15,7 @@ import (
         "github.com/mattn/go-colorable"
         "github.com/skip2/go-qrcode"
 )
-
+// hahaha
 type consoleColor string
 type consoleColors struct {
         NormalBlack   consoleColor
