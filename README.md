@@ -24,6 +24,7 @@ this will be my last project under the Alias virtual, due to the fact it has alo
     - Password hashing
     - Licensing System
     - MFA Code
+    - mert was here
 - Polymorphic command handler
     - Automatic permissions association and checks
     - File per command
@@ -50,6 +51,7 @@ this will be my last project under the Alias virtual, due to the fact it has alo
         - [method] [target] [time] [port]
 - Slave loading
     - Loading Mirai's to the CnC
+    - mert was here too!
 - Ported Yami's features onto the CnC
 # Markup
 - Users
@@ -88,7 +90,7 @@ SET ROOT PASS (this isn't a command)
 mysql -pPASSWORD
 create database blissful;
 exit;
-./main
+./mert was here aswell!!
 ```
 
 For Redhat's use `yum`, For Arch's use `pacman`
