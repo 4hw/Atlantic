@@ -1,0 +1,7 @@
+<<clear()>>
+Welcome to Atlantic:
+
+[Terminal]: UP
+[Connection]: TRUE
+[Slaves]: <<$slaves>>
+
