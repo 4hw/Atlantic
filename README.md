@@ -1,7 +1,7 @@
 # AtlanticV2
 I never thought i'd actually do this, but oh well.
 
-this will be my last project under the Alias virtual, due to the fact it has alot of controversy.
+this will be my last project under the Alias virtual (bitches), due to the fact it has alot of controversy.
 
 # Features
 - Sessions
