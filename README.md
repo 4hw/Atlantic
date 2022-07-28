@@ -24,7 +24,6 @@ this will be my last project under the Alias virtual, due to the fact it has alo
     - Password hashing
     - Licensing System
     - MFA Code
-    - mert was here
 - Polymorphic command handler
     - Automatic permissions association and checks
     - File per command
@@ -42,16 +41,20 @@ this will be my last project under the Alias virtual, due to the fact it has alo
     - Max length line reader
     - Fast & secure
 - Attacks
-    - Send to Mirai clients
+    - Send to Mirai clients // UPDATE: I'm tired of trying to fix it, fix it yourself man
     - Max time
     - Concurrents
     - Cooldown
     - Logging to a Database
+    - Disabling/Enabling attacks
     - Format
         - [method] [target] [time] [port]
 - Slave loading
     - Loading Mirai's to the CnC
-    - mert was here too!
+- Funnel manager
+    - API Key changing
+    - Uses the same SQL database
+    - Can be used for the main CnC (better + more optimized)
 - Ported Yami's features onto the CnC
 # Markup
 - Users
@@ -90,7 +93,7 @@ SET ROOT PASS (this isn't a command)
 mysql -pPASSWORD
 create database blissful;
 exit;
-./mert was here aswell!!
+./main
 ```
 
 For Redhat's use `yum`, For Arch's use `pacman`
