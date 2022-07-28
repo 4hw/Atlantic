@@ -15,7 +15,7 @@ import (
         "github.com/mattn/go-colorable"
         "github.com/skip2/go-qrcode"
 )
-// hahaha
+
 type consoleColor string
 type consoleColors struct {
         NormalBlack   consoleColor
@@ -147,7 +147,7 @@ func (v *qrcodeTerminal) getQRCodeString(data [][]bool) (result *QRCodeString) {
         result = &obj
         return
 }
-// i.ts me.rt he.re yoo.o wtff.ffffff....
+
 func parseQR(bytes []byte) (data [][]bool, err error) {
         r := nbytes.NewReader(bytes)
         img, err := png.Decode(r)
