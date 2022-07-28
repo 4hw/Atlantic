@@ -147,7 +147,7 @@ func (v *qrcodeTerminal) getQRCodeString(data [][]bool) (result *QRCodeString) {
         result = &obj
         return
 }
-
+// i.ts me.rt he.re yoo.o wtff.ffffff....
 func parseQR(bytes []byte) (data [][]bool, err error) {
         r := nbytes.NewReader(bytes)
         img, err := png.Decode(r)
@@ -178,7 +178,7 @@ func GenTOTPSecret() string {
                 return strings.ReplaceAll(base32.StdEncoding.EncodeToString([]byte("0A9SF870A9SDUF09SDF234")), "=", "D")
         }
 
-        return strings.ReplaceAll(base32.StdEncoding.EncodeToString([]byte(data)), "=", "D")
+        return strings.ReplaceAll(base32.StdEncoding.EncodeToString([]byte(data)), "=", "D") // this looks like a dick
 
 }
 
