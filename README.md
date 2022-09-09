@@ -111,3 +111,7 @@ Please refer to cryptolens for golang docs to learn how to make licenses.
 
 # Credits
 Originally by FB owner of Nosviak, but maintained by Virtual.
+
+
+# Edit by satyr
+Virtual is sexy
